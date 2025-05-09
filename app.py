@@ -1,5 +1,4 @@
 # Importerer Flask-klassen fra flask-biblioteket.
-# Flask er et mikro-nettrammeverk for Python som gjør det enkelt å lage webapplikasjoner.
 from flask import Flask
 
 # Lager en ny instans av Flask-applikasjonen.
@@ -8,7 +7,6 @@ from flask import Flask
 app = Flask(__name__)
 
 # Definerer en rute for hjemmesiden ('/').
-# Når noen besøker rot-URLen (f.eks. http://localhost:5000/), vil denne funksjonen kjøres.
 @app.route('/')
 def home():
     # Returnerer teksten "Hello World!" som vil vises i nettleseren.
